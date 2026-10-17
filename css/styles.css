@@ -200,3 +200,63 @@ img {
   gap: 0.25rem;
 }
 
+.campo-form input,
+.campo-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.boton-enviar {
+  padding: 0.75rem 1.5rem;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.boton-enviar:hover {
+  background-color: #0369a1;
+}
+
+.redes-pie {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+/* Breakpoint 1 -> Tablet (600px en adelante) */
+@media (min-width: 600px) {
+  .menu ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .perfil-cabecera {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+/*  Breakpoint 2 -> Computador (1024px en adelante) con cambio en grid-template-areas */
+@media (min-width: 1024px) {
+  .contenedor-principal {
+    grid-template-columns: 240px 1fr;
+    grid-template-areas:
+      "cabecera cabecera"
+      "menu     contenido"
+      "pie      pie";
+  }
+
+  .menu ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
