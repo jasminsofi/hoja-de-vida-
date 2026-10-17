@@ -5,7 +5,7 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 **Sitio publicado:** https://jasminscarvajal.github.io/hoja-de-vida/
 
 ## 💻 Páginas del Sitio
-![Captura de pagina ](capturas/pantalla.jpg)
+![Captura de pagina ](img/pantalla.jpg)
 * `index.html`: Página principal con mi hoja de vida (perfil, formación y habilidades).
 * `proyectos.html`: Catálogo de los proyectos de desarrollo realizados.
 * `contacto.html`: Formulario de contacto y sección sobre mis intereses (películas, hobbies y ciudad).
@@ -27,19 +27,19 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 ## 🌐 Breakpoints utilizados
 
 * **Base (Celular - < 600px):** 
-![captura modo celular](capturas/celular.png)
+![captura modo celular](img/celular.png)
 
 Todo el contenido se organiza en una sola columna vertical utilizando `grid-template-areas` con las áreas apiladas (cabecera, menú, contenido y pie).
 
 * **Desde 768px (Tablet):** 
 
-![Captura de pagina ](capturas/tablet.png)
+![Captura de pagina ](img/tablet.png)
 
 El menú de navegación pasa de una lista vertical a una barra horizontal centrada, y los elementos de la cabecera se alinean horizontalmente.
 
 * **Desde (Computador):** 
 
-![Captura de pagina ](capturas/pantalla.jpg)
+![Captura de pagina ](img/pantalla.jpg)
 
 Se reestructura el diseño por completo mediante `grid-template-areas`, fijando el menú de navegación en una columna lateral a la izquierda (`240px`) y el contenido principal a la derecha (`1fr`).
 
