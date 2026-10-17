@@ -1,0 +1,202 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f9;
+  color: #333333;
+  padding: 1rem;
+}
+
+/*  Ancho máximo y centrado global */
+.contenedor-principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+
+  /*  base en una sola columna */
+  grid-template-areas:
+    "cabecera"
+    "menu"
+    "contenido"
+    "pie";
+}
+
+/* Asignación de áreas */
+.cabecera {
+  grid-area: cabecera;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.menu {
+  grid-area: menu;
+  background-color: #0f172a;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.contenido {
+  grid-area: contenido;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pie {
+  grid-area: pie;
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+
+/* Imágenes responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.perfil-cabecera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
+}
+
+.subtitulo {
+  color: #38bdf8;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.descripcion-corta {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.lista-contacto-cabecera {
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+.lista-contacto-cabecera a,
+.redes-pie a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.lista-contacto-cabecera a:hover,
+.redes-pie a:hover {
+  text-decoration: underline;
+}
+
+/* R8: Menú de navegación */
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover,
+.menu a.activo {
+  background-color: #0284c7;
+}
+
+/* Secciones genéricas */
+.seccion-bloque {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.seccion-bloque h2 {
+  margin-bottom: 1rem;
+  color: #0f172a;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+/* R5: Sección en tarjetas con repeat(auto-fit, minmax(...)) */
+.tarjetas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tarjeta-skill,
+.tarjeta-proyecto,
+.tarjeta-hobby {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.tarjeta-proyecto img {
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.boton-enlace {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #0284c7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.boton-enlace:hover {
+  background-color: #0369a1;
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.campo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- R1 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Hoja de Vida - Contacto y Sobre Mí</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="contenedor-principal">
+
+    <!-- ÁREA: cabecera -->
+    <header class="cabecera">
+      <div class="perfil-cabecera">
+        <!-- R7 -->
+        <img src="img/avatar.jpg" alt="Foto de perfil de Jasmin" class="foto-perfil">
+        <div class="texto-cabecera">
+          <h1>Jasmin Sofia Carvajal Prada</h1>
+          <p class="subtitulo">Contacto e Intereses Personales</p>
+        </div>
+      </div>
+    </header>
+
+    <!--  menu -->
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html" class="activo">Contacto e Intereses</a></li>
+      </ul>
+    </nav>
+
+    <!-- contenido -->
+    <main class="contenido">
+
+      <!-- Sección: Hobbies, Deporte y Ciudad -->
+      <section class="seccion-bloque">
+        <h2>Un poco más sobre mí</h2>
+        <p>Además del desarrollo web y la tecnología, disfruto de diferentes actividades en mi tiempo libre:</p>
+        
+        <!-- R5: Tarjetas Grid adaptativas para los Hobbies -->
+        <div class="tarjetas-grid">
+          
+          <article class="tarjeta-hobby">
+            <h3>🎥 Mis peliculas favoritas</h3>
+            <p>Soy una gran amante del cine. Disfruto especialmente de las películas de ciencia ficción,terror,
+                misterio y aquellas que llevan esa chispa de misterio y terror, y mi saga de peliculas favoritas son las del conjuro de los wuarren Ed y Lorraine.</p>
+          </article>
+
+          <article class="tarjeta-hobby">
+            <h3>🎨 Mis Hobbies</h3>
+            <p>En mis momentos libres me gusta explorar nuevos lenguajes de programación, escuchar música, leer sobre tecnología , misterio 
+                 y desarrollar proyectos creativos todo lo diseño.</p>
+          </article>
+
+          <article class="tarjeta-hobby">
+            <h3>🏙️ Mi Ciudad</h3>
+            <p>Orgullosa de mi ciudad y sus paisajes. Disfruto recorrer sus parques, conocer lugares gastronómicos y compartir momentos con amigos y compañeros.</p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Sección: Formulario de Contacto -->
+      <section class="seccion-bloque">
+        <h2>Ponte en contacto conmigo</h2>
+        <p>¿Tienes alguna duda o propuesta de trabajo? Puedes escribirme mediante este formulario o directamente a mi correo profesional.</p>
+        
+        <form class="formulario-contacto" action="#" method="get">
+          <div class="campo-form">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+          </div>
+
+          <div class="campo-form">
+            <label for="correo">Correo profesional:</label>
+            <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
+          </div>
+
+          <div class="campo-form">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+          </div>
+
+          <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- ÁREA: pie (R10) -->
+    <footer class="pie">
+      <p>&copy; 2026 Jasmin Sofia Carvajal Prada</p>
+      <div class="redes-pie">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:jasmin@example.com">Correo</a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
