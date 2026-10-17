@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Hoja de Vida - Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Contenedor principal que manejará el CSS Grid por áreas -->
+  <div class="contenedor-principal">
+
+    <!-- ÁREA: cabecera -->
+    <header class="cabecera">
+      <div class="perfil-cabecera">
+        <!-- R7: Foto / Avatar responsive con texto alternativo -->
+        <img src="img/avatar.png" alt="Foto de perfil o avatar de Jasmin" class="foto-perfil">
+        <div class="texto-cabecera">
+          <h1>Jasmin Sofia Carvajal Prada</h1>
+          <p class="subtitulo">Desarrolladora Web</p>
+          <p class="descripcion-corta">
+            Apasionada por la tecnología y el desarrollo web. Me gusta aprender, crear y superarame cada dia , persiguiendo 
+            mis sueños.
+          </p>
+          <!-- R9 & R10: Enlaces de contacto / redes -->
+          <ul class="lista-contacto-cabecera">
+            <li>✉️ <a href="mailto:jasmin@example.com">jasmin@example.com</a></li>
+            <li>🔗 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li>👤 <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- ÁREA: menu (R8 & R9) -->
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- ÁREA: contenido -->
+    <main class="contenido">
+
+      <!-- Sección: Formación -->
+      <section class="seccion-bloque">
+        <h2>Formación</h2>
+        <ul class="lista-formacion">
+          <li><strong>Técnico en programación</strong></li>
+          <li><strong>Curso de desarrollo web</strong></li>
+          <li><strong>Actualmente:</strong> Ingeniería de sistemas</li>
+        </ul>
+      </section>
+
+      <!-- Sección: Habilidades (R5 - Tarjetas) -->
+      <section class="seccion-bloque">
+        <h2>Habilidades</h2>
+        <div class="tarjetas-grid">
+          <span class="etiqueta-skill">HTML</span>
+          <span class="etiqueta-skill">CSS</span>
+          <span class="etiqueta-skill">JavaScript</span>
+          <span class="etiqueta-skill">Python</span>
+          <span class="etiqueta-skill">Git</span>
+          <span class="etiqueta-skill">SCRUM</span>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ÁREA: pie (R10) -->
+    <footer class="pie">
+      <p>&copy; 2026 Jasmin Sofia Carvajal Prada</p>
+      <div class="redes-pie">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:jasmin@example.com">Correo</a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
