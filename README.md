@@ -74,4 +74,3 @@ Se reestructura el diseño por completo mediante `grid-template-areas`, fijando 
 ## 🔗Fuentes consultadas
 * Documentación oficial de GitHub Pages: [https://docs.github.com/es/pages](https://docs.github.com/es/pages)
 * Guías de CSS Grid y Responsive Design en MDN Web Docs: [https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout)
-* Validador HTML del W3C: [https://validator.w3.org/](https://validator.w3.org/)
