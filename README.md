@@ -6,6 +6,7 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 
 ## 💻 Páginas del Sitio
 ![Captura de pagina ](img/pantalla.jpg)
+
 * `index.html`: Página principal con mi hoja de vida (perfil, formación y habilidades).
 * `proyectos.html`: Catálogo de los proyectos de desarrollo realizados.
 * `contacto.html`: Formulario de contacto y sección sobre mis intereses (películas, hobbies y ciudad).
@@ -13,33 +14,50 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 ## ✏️ Mockups (Diseño previo)
 
 ### Hoja de vida, Proyectos y Contacto
-![Mockups del sitio web](mockups/Mockups.png)
+
+<div align="center">
+  <img src="mockups/Mockups.png" alt="Mockups del sitio web" width="300">
+</div>
 
 ## 📸 Capturas del sitio publicado
 
 ## Proyectos y Trabajos
 
-### Proyecto 1
-![Captura de proyectos](capturas/proyecto1.png)
+### Proyecto 1 
+
+<div align="center">
+  <img src="capturas/proyecto1.png" alt="Captura de proyectos" width="300">
+</div> 
+
 ### Proyecto 2
-![Captura de detalles](capturas/proyecto2.png)
+
+<div align="center">
+  <img src="capturas/proyecto2.png" alt="Captura de detalles" width="300">
+</div>
 
 ## 🌐 Breakpoints utilizados
 
 * **Base (Celular - < 600px):** 
-![captura modo celular](img/celular.png)
+
+<div align="center">
+  <img src="img/celular.png" alt="Sitio en celular" width="280">
+</div>
 
 Todo el contenido se organiza en una sola columna vertical utilizando `grid-template-areas` con las áreas apiladas (cabecera, menú, contenido y pie).
 
 * **Desde 768px (Tablet):** 
 
-![Captura de pagina ](img/tablet.png)
+<div align="center">
+  <img src="img/tablet.png" alt="Sitio en tablet" width="300">
+</div>
 
 El menú de navegación pasa de una lista vertical a una barra horizontal centrada, y los elementos de la cabecera se alinean horizontalmente.
 
 * **Desde (Computador):** 
 
-![Captura de pagina ](img/pantalla.jpg)
+ <div align="center">
+  <img src="img/pantalla.jpg" alt="Sitio en computador" width="300">
+</div>
 
 Se reestructura el diseño por completo mediante `grid-template-areas`, fijando el menú de navegación en una columna lateral a la izquierda (`240px`) y el contenido principal a la derecha (`1fr`).
 

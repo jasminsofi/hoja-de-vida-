@@ -260,3 +260,12 @@ img {
     justify-content: flex-start;
   }
 }
+
+.foto-perfil {
+  width: 180px;  /* Cambia este valor si la quieres más pequeña (ej: 90px) o más grande (ej: 150px) */
+  height: 200px; /* Debe ser igual al ancho para que se mantenga redonda */
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
+}
+
