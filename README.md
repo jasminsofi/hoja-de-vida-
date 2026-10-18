@@ -2,7 +2,7 @@
 
 Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, e implementado en internet mediante GitHub Pages. Incluye mi hoja de vida, mis proyectos destacados y una sección de contacto e intereses personales.
 
-**Sitio publicado:** https://jasminscarvajal.github.io/hoja-de-vida/
+**Sitio publicado:** https://jasminsofi.github.io/hoja-de-vida-/ 
 
 ## 💻 Páginas del Sitio
 
