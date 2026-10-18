@@ -7,8 +7,8 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 ## 💻 Páginas del Sitio
 
 <div align="center">
-  <img src="img/pantalla.jpg" alt="Captura de pagina" width="320">
-</div>
+  <img src="img/pantalla.jpg" alt="Captura de pagina" width="400">
+</div>  
 
 * `index.html`: Página principal con mi hoja de vida (perfil, formación y habilidades).
 * `proyectos.html`: Catálogo de los proyectos de desarrollo realizados.
@@ -19,7 +19,7 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 ### Hoja de vida, Proyectos y Contacto
 
 <div align="center">
-  <img src="mockups/Mockups.png" alt="Mockups del sitio web" width="310">
+  <img src="mockups/Mockups.png" alt="Mockups del sitio web" width="400">
 </div>
 
 ## 📸 Capturas del sitio publicado
@@ -29,13 +29,13 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 ### Proyecto 1 
 
 <div align="center">
-  <img src="capturas/proyecto1.png" alt="Captura de proyectos" width="310">
+  <img src="capturas/proyecto1.png" alt="Captura de proyectos" width="400">
 </div> 
 
 ### Proyecto 2
 
 <div align="center">
-  <img src="capturas/proyecto2.png" alt="Captura de detalles" width="310">
+  <img src="capturas/proyecto2.png" alt="Captura de detalles" width="400">
 </div>
 
 ## 🌐 Breakpoints utilizados
@@ -43,7 +43,7 @@ Sitio web personal y profesional adaptable (responsive), creado con HTML y CSS, 
 * **Base (Celular - < 600px):** 
 
 <div align="center">
-  <img src="img/celular.png" alt="Sitio en celular" width="310">
+  <img src="img/celular.png" alt="Sitio en celular" width="400">
 </div>
 
 Todo el contenido se organiza en una sola columna vertical utilizando `grid-template-areas` con las áreas apiladas (cabecera, menú, contenido y pie).
@@ -51,7 +51,7 @@ Todo el contenido se organiza en una sola columna vertical utilizando `grid-temp
 * **Desde 768px (Tablet):** 
 
 <div align="center">
-  <img src="img/tablet.png" alt="Sitio en tablet" width="310">
+  <img src="img/tablet.png" alt="Sitio en tablet" width="400">
 </div>
 
 El menú de navegación pasa de una lista vertical a una barra horizontal centrada, y los elementos de la cabecera se alinean horizontalmente.
@@ -59,7 +59,7 @@ El menú de navegación pasa de una lista vertical a una barra horizontal centra
 * **Desde (Computador):** 
 
  <div align="center">
-  <img src="img/pantalla.jpg" alt="Sitio en computador" width="310">
+  <img src="img/pantalla.jpg" alt="Sitio en computador" width="400">
 </div>
 
 Se reestructura el diseño por completo mediante `grid-template-areas`, fijando el menú de navegación en una columna lateral a la izquierda (`240px`) y el contenido principal a la derecha (`1fr`).
